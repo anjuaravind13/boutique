@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+  }
+  
+  html {
+    font-size: 55.5%;
+  }
+  
+  :root {
+    --main-color: #333;
+    --primary-color: #acacac;
+    --icon-color: #525252;
+  }
+  
+  i {
+    width: 2rem;
+    height: 2rem;
+  }
+  .fa,
+  .fas {
+    font-weight: 900;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+body {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+  }   */
+.cart-icon {
+    display: flex;
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+  }
+  
+  .cart-icon img {
+    width: 5rem;
+    height: 5rem;
+    color: #2f80ed;
+  }
+  
+  .cart-icon p {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    right: -1.2rem;
+    top: 0.9rem;
+    border-radius: 50%;
+    background: #99cbf7;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+  }
